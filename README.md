@@ -310,6 +310,3 @@ All protected routes expect header: `Authorization: Bearer <token>`.
 4. **Admin record ownership**: Creating a record requires `userId` in the body so admins attach data to the correct user.
 5. **Swagger**: JSDoc is loaded from `src/routes` (dev) or `dist/routes` (production build); extend route files with `@openapi` blocks to enrich `/api-docs`.
 
-## License
-
-MIT
